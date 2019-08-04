@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Montserrat&display=swap');
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Raleway:300,400,500,700");
+
+
+h1 {
+  padding: 24px;
+  text-align: center;
+  color: white;
+  font-size: 90px;
+  /*color: rgb(241, 91, 255);*/
+
+}
+
+h2 {
+  font-family: 'Montserrat', serif;
+  color: rgba(255,255,255,1);
+  text-align: center;
+  font-size: 50px;
+}
+#button {
+  /*margin-left: 45%;*/
+  font-family: Raleway, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 25px;
+  color: rgba(255,255,255,1);
+  text-align: center;
+  width: 15%;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: rgb(224, 148, 162);
+  border-radius: 10px
+ }
+#button:hover {
+  box-shadow: 2px 4px rgba(0,0,0,0.2);
+  background-color: rgb(254, 138, 152);
+
+ }
+
+ .carousel-item {
+background-size: cover;
+  background-position: center;
+/*  width: 100%;
+  height: 100%;*/
+  border-radius: 10px;
+
+ }
+ .carousel-item img {
+  height: 380px;
+  visibility: hidden;
+ }
